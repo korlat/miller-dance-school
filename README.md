@@ -1,3 +1,2 @@
-# miller-dance-school
-Miller school of dance website
+# Miller School of Dance Website
 
