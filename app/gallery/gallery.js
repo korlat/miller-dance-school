@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.gallery', ['ngRoute'])
 
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/view1', {
-            templateUrl: 'view1/view1.html',
-            controller: 'View1Ctrl'
+        $routeProvider.when('/gallery', {
+            templateUrl: 'gallery/gallery.html',
+            controller: 'GalleryCtrl'
         });
     }])
 
-    .controller('View1Ctrl', [function () {
+    .controller('GalleryCtrl', [function () {
 
     }]);

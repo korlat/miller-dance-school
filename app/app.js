@@ -8,6 +8,7 @@ angular.module('myApp', [
     'myApp.contact',
     'myApp.classes',
     'myApp.gallery',
+    'myApp.summer-school',
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
 
