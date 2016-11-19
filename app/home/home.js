@@ -13,7 +13,6 @@ angular.module('myApp.home', ['ngRoute'])
         var self = this;
 
         self.navClasses = function () {
-            console.log("test seometing");
             $(".nav").find(".active").removeClass("active");
             var items = $(".nav").find('li');
             items.each(function (idx, value) {
