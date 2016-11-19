@@ -1,7 +1,7 @@
 <script src="../assets/js/navbar-nav-active.js"></script>
 <!-- Carousel
     ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" ng-controller="HomeCtrl as ctrl">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -27,7 +27,8 @@
                 <div class="carousel-caption">
                     <h1>Classes</h1>
                     <p>See the timetable for available classes</p>
-                    <p><a class="btn btn-lg btn-primary" href="#!/classes" role="button">Click here</a></p>
+                    <p><a class="btn btn-lg btn-primary" ng-click="ctrl.navClasses()" href="#!/classes" role="button">Click
+                        here</a></p>
                 </div>
             </div>
         </div>

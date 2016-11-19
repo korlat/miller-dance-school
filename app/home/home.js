@@ -10,5 +10,17 @@ angular.module('myApp.home', ['ngRoute'])
     }])
 
     .controller('HomeCtrl', [function () {
+        var self = this;
+
+        self.navClasses = function () {
+            console.log("test seometing");
+            $(".nav").find(".active").removeClass("active");
+            var items = $(".nav").find('li');
+            items.each(function (idx, value) {
+                if ($(value).text() === "Classes") {
+                    $(value).addClass("active");
+                }
+            });
+        }
     }]);
 
