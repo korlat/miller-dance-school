@@ -4,7 +4,7 @@ angular.module('myApp.classes', ['ngRoute'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/classes', {
-            templateUrl: 'classes/classes.html',
+            templateUrl: 'app/classes/classes.html',
             controller: 'ClassesCtrl'
         });
     }])
