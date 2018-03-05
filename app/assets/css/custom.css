@@ -1,7 +1,7 @@
+/*add custom colour to panel - classes*/
 .panel-test {
     border-color: #ffb6c1;
 }
-
 .panel-test > .panel-heading {
     color: #fff;
     background-color: #ffb6c1;
@@ -16,4 +16,15 @@
 }
 .panel-test > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ffb6c1;
+}
+
+/*remove gutter from grid system - gallery*/
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
 }
