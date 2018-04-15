@@ -18,22 +18,22 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '16:30 - 17:15',
                 class: 'G3, G4, (G5) Tap',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             }, {
                 time: '17:15 - 18:00',
                 class: '(G4), G5, G6/Inter Tap',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '18:00 - 19:00',
                 class: 'G6/Inter Ballet',
                 teacher: 'Miss Suzie / Miss Katie',
-                classColour:'danger'
+                classColour:'success'
             },{
                 time: '19:00 - 19:30',
                 class: 'Pointe - Adv - Selected Only Ballet',
                 teacher: 'Miss Suzie / Miss Katie',
-                classColour:'danger'
+                classColour:'success'
             },{
                 time: '19:30 - 20:30',
                 class: 'Singing',
@@ -46,17 +46,17 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '16:30 - 17:00',
                 class: 'G2 Modern Jazz',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:00 - 17:45',
                 class: 'G3, G4, (G5) Modern Jazz',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:45 - 18:30',
                 class: 'G5, G6/Inter Modern Jazz',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '18:30 - 19:00',
                 class: 'JNR Musical Theatre',
@@ -79,17 +79,17 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '16:30 - 17:00',
                 class: 'G2 Tap',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:00 - 17:30',
                 class: 'G2 Ballet',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:30 - 18:15',
                 class: 'G3, G4, G5 Ballet',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '18:15 - 19:00',
                 class: 'G3, G4, G5 Ballet',
@@ -99,7 +99,7 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '19:00 - 19:45',
                 class: 'Adult Beginners Tap',
                 teacher: 'Miss Katie / Sonia',
-                classColour:'success'
+                classColour:'danger'
             }]
         }, {
             day: 'Friday',
@@ -107,17 +107,17 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '16:30 - 17:00',
                 class: 'Show',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:00 - 17:30',
                 class: 'Show',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '17:30 - 18:00',
                 class: 'Show',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             }]
         }, {
             day: 'Saturday',
@@ -125,17 +125,17 @@ angular.module('myApp.classes', ['ngRoute'])
                 time: '0900 - 09:30',
                 class: 'Pri/G1 Ballet',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '0930 - 10:00',
                 class: 'Pri/G1 Modern Jazz',
                 teacher: 'Miss Katie',
-                classColour:'success'
+                classColour:'danger'
             },{
                 time: '1000 - 10:30',
                 class: 'Pri/G1 Ballet',
                 teacher: 'Pri/G1 Tap',
-                classColour:'success'
+                classColour:'danger'
             }]
         }]
     }]);

@@ -1,21 +1,21 @@
 /*add custom colour to panel - classes*/
 .panel-test {
-    border-color: #ffb6c1;
+    border-color: #800020;
 }
 .panel-test > .panel-heading {
     color: #fff;
-    background-color: #ffb6c1;
-    border-color: #ffb6c1;
+    background-color: #800020;
+    border-color: #800020;
 }
 .panel-test > .panel-heading + .panel-collapse > .panel-body {
-    border-top-color: #ffb6c1;
+    border-top-color: #800020;
 }
 .panel-test > .panel-heading .badge {
-    color: #ffb6c1;
+    color: #800020;
     background-color: #fff;
 }
 .panel-test > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #ffb6c1;
+    border-bottom-color: #800020;
 }
 
 /*remove gutter from grid system - gallery*/

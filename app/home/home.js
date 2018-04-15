@@ -20,6 +20,16 @@ angular.module('myApp.home', ['ngRoute'])
                     $(value).addClass("active");
                 }
             });
-        }
+        };
+
+        self.navContact = function () {
+            $(".nav").find(".active").removeClass("active");
+            var items = $(".nav").find('li');
+            items.each(function (idx, value) {
+                if ($(value).text() === "Contact") {
+                    $(value).addClass("active");
+                }
+            });
+        };
     }]);
 
