@@ -2,18 +2,22 @@
 .panel-test {
     border-color: #800020;
 }
+
 .panel-test > .panel-heading {
     color: #fff;
     background-color: #800020;
     border-color: #800020;
 }
+
 .panel-test > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #800020;
 }
+
 .panel-test > .panel-heading .badge {
     color: #800020;
     background-color: #fff;
 }
+
 .panel-test > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #800020;
 }
@@ -23,8 +27,13 @@
     margin-left: 0;
     margin-right: 0;
 }
+
 .row.no-gutter [class*='col-']:not(:first-child),
 .row.no-gutter [class*='col-']:not(:last-child) {
     padding-right: 0;
     padding-left: 0;
+}
+
+.email-wrap {
+    word-wrap: break-word;
 }
